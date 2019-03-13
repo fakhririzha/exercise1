@@ -1,0 +1,156 @@
+* {
+  color: white;
+}
+
+body {
+  background-image: url('../img/background.jpg');
+  background-size: 100vw auto;
+  background-repeat: no-repeat;
+}
+
+.main {
+  padding-bottom: 75px;
+  margin-bottom: 50px;
+  height: 90vh;
+}
+
+.main-text {
+  font-family: 'Lilita One', cursive;
+  line-height: 1;
+}
+
+.navbar-expanded {
+  background-color: red;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+#navbarDropdown {
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+.align-center {
+  /* display: inline; */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+}
+
+.padding-50 {
+  padding-bottom: 50px;
+}
+
+/* SECTION */
+
+.title {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.title-dot {
+  border-radius: 0;
+  height: 3px;
+  width: 100px;
+  display: block;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.content {
+  padding-top: 50px;
+}
+
+#profile {
+  background-color: #686256;
+  height: 600px;
+}
+
+#education {
+  background-color: #292F33;
+  height: 600px;
+}
+
+/* BUTTON */
+
+.btn:hover {
+  color: white;
+  border: 2px solid white;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+.btn-custom {
+  border: 2px solid #878f99;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+  margin: 5px 7.5px;
+  width: 135px;
+}
+
+.btn-facebook {
+  background-color: #3B5998;
+  color: white;
+}
+
+.btn-twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.btn-instagram {
+  background-color: #6b5b95;
+  color: white;
+}
+
+.btn-github {
+  background-color: #292F33;
+  color: white;
+}
+
+@media (max-width: 575px) {
+  .main {
+    padding-top: 27.5%;
+  }
+  .main-text {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .main {
+    padding-top: 26.5%;
+    padding-left: 1%;
+  }
+  .main-text {
+    font-size: 3.15rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .main {
+    padding-top: 25%;
+    padding-left: 2%;
+  }
+  .main-text {
+    font-size: 3.4rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main {
+    padding-top: 23.5%;
+    padding-left: 4%;
+  }
+  .main-text {
+    font-size: 3.7rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main {
+    padding-top: 22.5%;
+    padding-left: 5%;
+  }
+  .main-text {
+    font-size: 4rem;
+  }
+}
